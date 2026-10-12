@@ -1,0 +1,26 @@
+generated: '2026-10-12'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.rapidproxy.io/residential-proxies/pricing
+sources:
+- https://www.rapidproxy.io/residential-proxies/pricing
+- https://docs.rapidproxy.io/proxies/getting-started/plans-purchasing.md
+- https://docs.rapidproxy.io/proxies/unlimited-residential-proxies/buy-plans.md
+- https://docs.rapidproxy.io/proxies/unlimited-residential-proxies/plan-renewal-and-server-resource-monitoring.md
+name: RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) pricing
+audience: business-product
+pricing_basis: per-call
+plans:
+- name: Rotating Residential Proxies
+  price_text: $0.65 per GB
+  price: 0.65
+  description: Pay-per-GB model with traffic that does not expire. IPs rotate automatically.
+- name: Static Residential Proxies
+  price_text: $5 per IP per month
+  price: 5
+  billing_period: month
+  description: Per-IP pricing with unlimited bandwidth for the billing period.
+- name: Unlimited Residential Proxies
+  price_text: Custom Plan
+  description: Unlimited traffic billed based on bandwidth (Mbps). Custom pricing available.
+docs: https://www.rapidproxy.io/residential-proxies/pricing
