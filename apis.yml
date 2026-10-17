@@ -67,17 +67,19 @@ common:
   url: https://www.rapidproxy.io/blog
 
 apis:
-- aid: rapidproxy:rapidproxy-api
-  name: RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) API
-  description: 'RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) API as documented publicly: 1 operations. Contract generated from the documentation
-    by API Evangelist (2026-10-12); not the provider''s own document.'
+- aid: rapidproxy:rapidproxy-rapidproxy-rapid-terminal-uk-network-limited-api-api
+  name: >-
+    RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) API
+  description: >-
+    The RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) API API from RapidProxy (RAPID TERMINAL UK NETWORK
+    LIMITED) — 1 operation(s) for rapidproxy (rapid terminal uk network limited) api.
   humanURL: https://docs.rapidproxy.io/proxies/code-sample.md
   baseURL: http://YOUR_USERNAME:YOUR_PASSWORD@YOUR_PROXY_HOST:YOUR_PORT
+  tags:
+  - RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) API
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/rapidproxy-openapi-generated.yml
-    x-provenance: generated
-
+    url: openapi/rapidproxy-rapidproxy-rapid-terminal-uk-network-limited-api-api-openapi.yml
 x-submission-notes: 'residential proxy network, 70M+ IPs | Kin approved listing 2026-10-12 (case-by-case:
   residential proxy provider (scraping/fraud-adjacent category))'
 

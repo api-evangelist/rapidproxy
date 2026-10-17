@@ -1,0 +1,41 @@
+openapi: 3.2.0
+info:
+  title: RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) API
+  version: '2026-10-12'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-12: 1 operation(s) read from 3 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 1
+    documentation: 0
+    pages-with-code: 3
+    pages-read: 3
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-12'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://docs.rapidproxy.io/proxies/code-sample.md
+  - https://docs.rapidproxy.io/simplified-mandarin/dai-li/dai-ma-shi-li.md
+  - https://docs.rapidproxy.io/proxies/static-residential-proxy/get-static-proxy-ip.md
+servers:
+- url: http://YOUR_USERNAME:YOUR_PASSWORD@YOUR_PROXY_HOST:YOUR_PORT
+tags:
+- name: RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) API
+paths:
+  /:
+    get:
+      operationId: get
+      tags:
+      - RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) API
+      summary: GET /
+      x-source: https://docs.rapidproxy.io/proxies/code-sample.md
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: 'curl -x http://YOUR_USERNAME:YOUR_PASSWORD@YOUR_PROXY_HOST:YOUR_PORT https://example.com
+
+          ```'

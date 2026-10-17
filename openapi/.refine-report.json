@@ -1,0 +1,20 @@
+{
+  "provider": "rapidproxy",
+  "sources": [
+    "_ae-authored/rapidproxy-openapi-generated.yml"
+  ],
+  "outputs": [
+    "rapidproxy-rapidproxy-rapid-terminal-uk-network-limited-api-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "rapidproxy-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "rapidproxy-openapi-generated.yml: tagged paths GET / -> RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) API",
+    "rapidproxy-openapi-generated.yml: declared missing tag: RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) API",
+    "apis.yml register: written (+1 apis, 1 total)"
+  ],
+  "skipped": []
+}
