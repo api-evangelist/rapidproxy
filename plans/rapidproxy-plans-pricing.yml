@@ -24,3 +24,28 @@ plans:
   price_text: Custom Plan
   description: Unlimited traffic billed based on bandwidth (Mbps). Custom pricing available.
 docs: https://www.rapidproxy.io/residential-proxies/pricing
+x-canonical:
+  generated: '2026-10-23'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Rotating Residential Proxies
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Static Residential Proxies
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Unlimited Residential Proxies
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
